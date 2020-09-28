@@ -5,6 +5,8 @@ spring:
   application:
     name: cloud-zuul-9527
 
+
+
 eureka:
   client:
     service-url:
@@ -19,3 +21,4 @@ zuul:
       serviceId: cloud-provider-student
       path: /stu/**
   ignored-services: "*"  #不能使用此路径访问
+
