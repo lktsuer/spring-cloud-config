@@ -1,5 +1,5 @@
 server:
- port: 7001
+ port: 7003
 
 eureka:
  instance:
@@ -8,10 +8,10 @@ eureka:
    register-with-eureka: false  #是否向注册中心注册自己
    fetch-registry: false   #false:表明自己为注册中心
    service-url: #监控页面
-     defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+     defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
  server:
    enable-self-preservation: false
 spring:
  application:
-   name: cloud-eureka-7001
+   name: cloud-eureka-7003
 
