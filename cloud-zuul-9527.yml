@@ -17,5 +17,5 @@ zuul:
   routes:
     prov:
       serviceId: cloud-provider-student
-      path: /stu/**
+      path: /prov/**
   ignored-services: "*"  #不能使用此路径访问
